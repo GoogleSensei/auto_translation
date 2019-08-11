@@ -1,0 +1,18 @@
+{
+    "manifest_version": 1,
+    "name": "自動翻訳",
+    "version": "1.0",
+    "description": "ドラッグした箇所を自動翻訳します。",
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "icons" : {
+      "128": "icon.png"
+    }
+  }
